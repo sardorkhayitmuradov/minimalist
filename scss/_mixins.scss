@@ -1,5 +1,18 @@
-@mixin list-unstyled {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+@mixin btn {
+  font-family: PublicSans;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+  border: 1px solid #33323D;
+  padding: 17px 32px;
+  &:hover{
+    background: #33323D;
+    color: #FAFAFA;
+  }
+  &:active{
+    border: 1px solid #D6D6D8; 
+    color: #33323D;
+  }
 }
