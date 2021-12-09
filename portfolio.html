@@ -10,8 +10,26 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header__container">
-
+        <div class="header__container container">
+          <div class="header__body">
+            <a href="manage.html"><img src="img/header-logo.svg" alt="site-logo"></a>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">HOME</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">PORTFOLIO</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">CONTACT ME</a></li>
+              </ul>
+            </nav>
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="#">HOME</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">CONTACT ME</a>
+              </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
         </div>
     </header>
 
@@ -87,6 +105,8 @@
             </div>
         </section>
     </main>
+
+
     <script src="js/main.js"></script>
 </body>
 </html>
