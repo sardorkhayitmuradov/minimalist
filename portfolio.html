@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minimalist</title>
-  <link rel="stylesheet" href="css/flexboxgrid.min.css">
-  <link rel="stylesheet" href="css/main.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="header__container container">
-          <div class="header__body">
-            <a href="manage.html"><img src="img/header-logo.svg" alt="site-logo"></a>
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item"><a class="nav__link" href="#">HOME</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">PORTFOLIO</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">CONTACT ME</a></li>
-              </ul>
-            </nav>
-            <div id="myNav" class="overlay">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <div class="overlay-content">
-                <a href="#">HOME</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">CONTACT ME</a>
-              </div>
+            <div class="header__body">
+                <a href="manage.html"><img src="img/header-logo.svg" alt="site-logo"></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#">HOME</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">PORTFOLIO</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">CONTACT ME</a></li>
+                    </ul>
+                </nav>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#">HOME</a>
+                        <a href="#">PORTFOLIO</a>
+                        <a href="#">CONTACT ME</a>
+                    </div>
+                </div>
+                <span class="open__span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
-            <span class="open__span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-          </div>
         </div>
-      </header>
+    </header>
     
     <main class="main">
         <section class="projects">
@@ -42,7 +43,7 @@
                         <img src="./img/manage-tablet.jpg" alt="Manage Website" class="project__img-tablet"
                         width="339" height="314">
                         <img src="./img/manage-tablet.jpg" alt="Manage Website" class="project__img-mobile" width="311" height="288">
-
+                        
                         <div class="project-info">
                             <hr class="hr">
                             <h2 class="project__title">Manage</h2>
@@ -56,7 +57,7 @@
                         <img src="./img/bookmark-tablet.jpg" alt="Bookmark Website" class="project__img-tablet"
                         width="339" height="314">
                         <img src="./img/bookmark-mobile.jpg" alt="Bookmark Website" class="project__img-mobile" width="311" height="288">
-
+                        
                         <div class="project-info">
                             <hr class="hr">
                             <h2 class="project__title">Bookmark</h2>
@@ -70,7 +71,7 @@
                         <img src="./img/insure-tablet.jpg" alt="Insure Website" class="project__img-tablet"
                         width="339" height="314">
                         <img src="./img/insure-mobile.jpg" alt="Insure Website" class="project__img-mobile" width="311" height="288">
-
+                        
                         <div class="project-info">
                             <hr class="hr">
                             <h2 class="project__title">Insure</h2>
@@ -84,7 +85,7 @@
                         <img src="./img/fylo-tablet.jpg" alt="Fylo Website" class="project__img-tablet"
                         width="339" height="314">
                         <img src="./img/fylo-mobile.jpg" alt="Fylo website" class="project__img-mobile" width="311" height="288">
-
+                        
                         <div class="project-info">
                             <hr class="hr">
                             <h2 class="project__title">Fylo</h2>
@@ -96,31 +97,27 @@
                 </ul>
             </div>
         </section>
-
-        <section class="interest">
-            <div class="container interest__container">
-            </div>
-        </section>
+        
     </main>
     <footer  class="footer">
         <div class="footer__container container">
-          <div class="footer__body">
-            <div class="footer__block">
-              <a class="footer-site__link" href="manage.html"><img src="img/footer-logo.svg" alt="footer__logo"></a>
-              <ul class="footer__list">
-                <li class="footer__item"><a class="footer__link" href="#">HOME</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">PORTFOLIO</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">CONTACT ME</a></li>
-              </ul>
+            <div class="footer__body">
+                <div class="footer__block">
+                    <a class="footer-site__link" href="manage.html"><img src="img/footer-logo.svg" alt="footer__logo"></a>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">HOME</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">PORTFOLIO</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">CONTACT ME</a></li>
+                    </ul>
+                </div>
+                <ul class="footer__social__list">
+                    <li class="footer__social__item"><a class="footer__social__link" href="https://github.com/ShohruxSafarmatov/minimalist" target="blank"><i class='bx bxl-github'></i></a></li>
+                    <li class="footer__social__item"><a class="footer__social__link" href="#" target="blank"><i class='bx bxl-twitter' ></i></a></li>
+                    <li class="footer__social__item"><a class="footer__social__link" href="#" target="blank"><i class='bx bxl-linkedin-square'></i></a></li>
+                </ul>
             </div>
-            <ul class="footer__social__list">
-              <li class="footer__social__item"><a class="footer__social__link" href="#"><i class='bx bxl-github'></i></a></li>
-              <li class="footer__social__item"><a class="footer__social__link" href="#"><i class='bx bxl-twitter' ></i></a></li>
-              <li class="footer__social__item"><a class="footer__social__link" href="#"><i class='bx bxl-linkedin-square'></i></a></li>
-            </ul>
-          </div>
         </div> 
-      </footer>
+    </footer>
     
     <script src="js/main.js"></script>
 </body>
