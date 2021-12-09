@@ -31,11 +31,18 @@
   }
   
 }
+.overlay{
+  display: none;
+}
+.open__span{
+  display: none;
+}
 @media only screen and (max-width:576px) {
   .nav{
     display: none;
   }
   .overlay {
+    display: block;
     height: 100%;
     width: 0;
     position: fixed;
@@ -80,5 +87,8 @@
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+  .open__span{
+    display: block;
   }
 }
